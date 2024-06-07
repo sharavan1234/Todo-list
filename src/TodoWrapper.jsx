@@ -1,7 +1,7 @@
 import React,{ useState } from 'react'
 
 function TodoWrapper(){
-  const [tasks,setTask]=useState(["eat","gym","repeat"]);
+  const [tasks,setTask]=useState([]);
   const[newTask,setNewTask]=useState("");
   const[completedTasks,setCompletedTasks]=useState([]);
 
